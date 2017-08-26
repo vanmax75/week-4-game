@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+		<meta charset="UTF-8">
+		<title>Crystal Collector/Week-4"</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+<body>
+
+	<div class= "header">
+		<h1>Crystal Collector</h1>
+	</div>
+
+	<div class= "howto">
+		<h3>Here's how you play the game</h3>
+		</br>
+		<ul>
+			<li>You will ge given a random number at the start of the game.</li>
+			<li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+	</div>
+	
+	<div class="random">
+		<h2>Number To Get :
+				<span id= "randomNumber"></span>
+		</h2>
+	</div>
+
+	<div class= "score">
+		<h2>Wins :
+			<span id="scoreWins"></span>
+			</br>
+			Losses :
+			<span id="scoreLosses"></span>
+		</h2>
+	</div>
+	<div class= "choiceCrystal">
+		<img src="assets/images/blue.png" class="cryImage" id="C1" alt="blue crystal">
+		<img src="assets/images/green.png" class="cryImage" id="C2" alt="green crystal">
+		<img src="assets/images/red.png" class="cryImage" id="C3" alt="red crystal">
+		<img src="assets/images/yellow.png" class="cryImage" id="C4" alt="yellow crystal">
+	</div>
+	<div class="displayScore">
+		<h2>Your Total Score is:
+		<span id="scoreTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
